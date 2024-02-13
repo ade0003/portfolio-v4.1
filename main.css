@@ -371,3 +371,35 @@ small,
     padding-right: 3rem;
   }
 }
+
+/* Portfolio Styles*/
+
+.hero__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 12rem;
+}
+.hero__image {
+  margin-right: 3rem;
+  border-radius: 0.5rem;
+}
+
+.text__section {
+  display: flex;
+  flex-direction: column;
+  /* margin: 1.5rem; */
+  /* padding: 0; */
+  gap: 2.5rem;
+}
+.intro__text {
+  margin: 0;
+  padding: 0;
+  color: var(--color-primary);
+  font-weight: 300;
+}
+.about__text {
+  color: var(--color-secondary);
+  font-weight: 300;
+  font-size: larger;
+}
