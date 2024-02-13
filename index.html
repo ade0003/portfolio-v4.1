@@ -12,76 +12,94 @@
     />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <!-- <span class="opaque"></span> -->
   <body class="container" id="body">
     <header class="navbar">
       <h5 class="logo">goodness.</h5>
       <nav class="navbar__nav">
         <ul class="navbar__list">
-          <li><a href="#work" class="navbar__link">work</a></li>
-          <li><a href="#" class="navbar__link">about</a></li>
-          <li><a href="#" class="navbar__link">resume</a></li>
-          <li><a href="#" class="navbar__link">contact</a></li>
+          <li><a href="#./" class="navbar__link">about</a></li>
+          <li><a href="./work.html" class="navbar__link">work</a></li>
+          <li><a href="./resources/resume.pdf" class="navbar__link" target="_blank">resume</a></li>
+          <li><a href="mailto:goodnessade@outlook.com" class="navbar__link">contact</a></li>
         </ul>
       </nav>
     </header>
     <main class="main" id="main">
-      <div class="hero">
-        <h2 id="intro__main">Hello, I'm <br />Goodness</h1>
-        <h4 id="intro">a 2nd year mobile application <br> design and development <br> student.</h4>
+      <div class="hero__section">
+        <div class="text__section">
+            <h3 class="intro__text">
+                Hi I’m Goodness, <br>a developer and <br>designer.
+            </h3>
+            <h5 class="about__text">
+                I am a student at Algonquin College,<br> studying mobile application
+                design <br> and development, I enjoy design as much as <br>development and I’m
+                always learning new <br>languages and tools. I’m also interested in <br>film
+                photography. <br> <br><br>Currently I’m in school and  seeking internship
+                opportunities.
+            </h5>
+         
+        </div>
+        <img src="./resources/me.png" class="hero__image" width="550" height="550" ></div>
       </div>
-      <div class="down-arrow"></div>
     </main>
 
-    <section class="work" id="work">
-      <div class="work__section">
-        <div class="section__text">
-          <span id="project__title"> 01 / ERA Mobile Wallet</span>
-          <span>Interactive mockup for a mobile <br>wallet called "ERA"</span>
-          <small id="design__date"> Designed in Figma, 2023</small>
-          <a target= "_blank"href="https://www.figma.com/proto/7RIC249OJOgYamYMKoSegd/Final-Project?type=design&node-id=1006-1404&t=cafWyZYxekQ3qKuD-0&scaling=scale-down&page-id=619%3A1132&starting-point-node-id=1006%3A1404" id="visit__link">View in Figma</a>
+    <section class="tools__section">
+        <span class="title"> Main <br> Languages/ <br> Tools</span>
+        <div class="languages__section">
+            <span class="first__list">JavaScript, HTML, CSS, React, NodeJS, C, Git</span>
+            <span class="second__list"> Figma, Tailwind, Chakra UI</span>
         </div>
-        <div class = "section__image">
-          <img class="project__image" src="./resources/era.png" alt="era app home screen" width="400" height="300">
-        </div>
-      </div>
-      <div class="work__section">
-        <div class="section__text">
-          <span id="project__title"> 02 / Image Search SPA</span>
-          <span>Integrating multiple APIs, with a primary <br> focus on Pixabay.</span>
-          <small id="design__date"> Developed with JavaScript & NodeJS, 2023</small>
-          <a target= "_blank"href="https://github.com/ade0003/madd9014-final" id="visit__link">View this project on Github</a>
-        </div>
-        <div class = "section__image">
-          <img class="project__image" src="./resources/spa.png" alt="era app home screen" width="400" height="300">
-        </div>
-      </div>
-      <div class="work__section">
-        <div class="section__text">
-          <span id="project__title"> 03 / Portfolio V1</span>
-          <span>Responsive 3-page portfolio website <br>utilizing custom Tailwind CSS for styling.</span>
-          <small id="design__date"> Developed with JavaScript. HTML & Tailwind, 2023</small>
-          <a target= "_blank"href="https://goodnessade.com/" id="visit__link">Visit this website</a>
-        </div>
-        <div class = "section__image">
-          <img class="project__image" src="./resources/portv3.png" alt="era app home screen" width="400" height="300">
-        </div>
-      </div>
+        
     </section>
+
+    <section class="social__section">
+        <div class="leader">
+            <div class="leader__text">
+                reach out, let’s talk <br> about a project.
+            </div>
+            <div class="arrow"></div>
+           
+          </div>
+        </div>
+        <div class="info">
+            <a href="mailto: goodnessade@outlook.com" class="email">goodnessade@outlook.com</a>
+            <a href="./resources/resume.pdf" class="resume" target="_blank">View Resume</a>
+
+        </div>
+    </section>
+
     <footer class="footer__border">
       <div class="footer">
         <h5 class="trademark">Goodness Ade-2024</h5>
         <nav class="footer__nav">
           <ul class="footer__list">
-            <li><a href="https://github.com/ade0003" class="footer__link" target="_blank">github</a></li>
-            <li><a href="https://www.linkedin.com/in/goodness-ade-182403/" class="footer__link" target="_blank">linkedin</a></li>
-            <li><a href="https://www.instagram.com/goodnesswithfilm/" class="footer__link" target="_blank">photography</a></li>
+            <li>
+              <a
+                href="https://github.com/ade0003"
+                class="footer__link"
+                target="_blank"
+                >github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/goodness-ade-182403/"
+                class="footer__link"
+                target="_blank"
+                >linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/goodnesswithfilm/"
+                class="footer__link"
+                target="_blank"
+                >photography</a
+              >
+            </li>
           </ul>
         </nav>
-
       </div>
-        
     </footer>
-
   </body>
 </html>
